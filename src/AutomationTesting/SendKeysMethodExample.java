@@ -8,8 +8,8 @@ public class SendKeysMethodExample {
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.facebook.com/");
-		driver.findElement(By.id("email")).sendKeys("belvalkar7@gmail.com");
-		driver.findElement(By.id("pass")).sendKeys("Ameya@1213");
+		driver.findElement(By.id("email")).sendKeys("belvdasd12e1s@gmail.com");
+		driver.findElement(By.id("pass")).sendKeys("Ameqwd12@12e31");
 		driver.findElement(By.name("login")).click();
 		Thread.sleep(5000);
 		driver.close();
